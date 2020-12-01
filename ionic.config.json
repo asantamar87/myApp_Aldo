@@ -1,0 +1,7 @@
+{
+  "name": "myApp_Aldo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
