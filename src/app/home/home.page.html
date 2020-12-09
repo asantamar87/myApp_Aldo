@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      APSOCECAT
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,8 +13,18 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-content>
+    <ion-list>
+      <ion-item  *ngFor="let immune of immunes" >
+
+        <ion-label>
+    
+          <h2>{{immune.name}}</h2>
+      
+      
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+
 </ion-content>
